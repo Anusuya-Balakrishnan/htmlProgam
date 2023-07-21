@@ -1,0 +1,25 @@
+a {
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+a:link {
+  background-color: blue;
+  color: chocolate;
+}
+a:visited {
+  background-color: rgb(66, 237, 9);
+  color: pink;
+}
+a:hover {
+  background-color: aqua;
+}
+a:active {
+  background-color: red;
+  color: white;
+}
+
+input:focus {
+  outline: red 2px solid;
+}
